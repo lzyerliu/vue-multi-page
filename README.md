@@ -29,7 +29,7 @@ build目录下的utils.js.js文件 publicPath: https://jscdn.xxx.com/
 build目录下的webpack.base.js文件 publicPath: https://cdn.xxx.com/
 ```
 
-## 一些 域名、资源 配置
+## 浏览方式
 ``` bash
 浏览方式：http://localhost:8800/test.html
 ```
