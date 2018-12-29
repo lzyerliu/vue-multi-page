@@ -48,7 +48,7 @@ exports.cssLoaders = function (options) {
       return ExtractTextPlugin.extract({
         use: loaders,
         fallback: 'vue-style-loader',
-        publicPath:process.env.NODE_ENV == 'production'? 'https://jscdn.nongchangshijie.net/':'../../',   //CDN
+        publicPath:process.env.NODE_ENV == 'production'? 'https://jscdn.xxx.com/':'../../',   //CDN
       })
     } else {
       return ['vue-style-loader'].concat(loaders)

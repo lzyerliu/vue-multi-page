@@ -83,7 +83,7 @@ module.exports = {
         loader: 'url-loader',
         options: {
           limit: 10000,
-          publicPath:"https://mcdn.nongchangshijie.net/",
+          publicPath:"https://cdn.xxx.com/",
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
       }

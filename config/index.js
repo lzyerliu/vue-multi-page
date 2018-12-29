@@ -51,7 +51,7 @@ module.exports = {
     assetsRoot: path.resolve(__dirname, '../public'),
     assetsSubDirectory: 'static',
     // assetsPublicPath: '/',
-    assetsPublicPath:process.env.NODE_ENV == 'production'? 'https://jscdn.nongchangshijie.net/':'../',
+    assetsPublicPath:process.env.NODE_ENV == 'production'? 'https://xxx.xxx.com/':'../',
 
     /**
      * Source Maps
